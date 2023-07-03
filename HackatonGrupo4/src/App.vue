@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import navCompras from'./components/valverde/navCompras.vue'
+import navCompras from'./valverde/navCompras.vue'
 </script>
 
 <template>
