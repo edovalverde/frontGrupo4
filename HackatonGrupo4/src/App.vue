@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import navCompras from'./components/valverde/navCompras.vue'
 </script>
 
 <template>
@@ -18,7 +19,13 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+
+
+  <navCompras/> 
 </template>
+
+
 
 <style scoped>
 header {
